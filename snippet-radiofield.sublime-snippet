@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+array(
+  'id'   => \$prefix . 'id',
+  'name' => 'Title',
+  'type' => 'radio',
+  'options' => array(
+    'option-1' => 'Option 1',
+    'option-2' => 'Option 2'
+  )
+),
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>cmbradiofield</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

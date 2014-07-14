@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+array(
+  'id'   => \$prefix . 'id',
+  'name' => 'Title',
+  'type' => 'post_select',
+  'allow_none' => true,
+  'query' => array(
+    'var' => 'val'
+  )
+),
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>cmbpostselectfield</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

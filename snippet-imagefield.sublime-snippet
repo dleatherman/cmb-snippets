@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+array(
+  'id'   => \$prefix . 'id',
+  'name' => 'Title',
+  'type' => 'image',
+  'show_size' => true,
+  'size'      => 'height=500&width=1000&crop=1'
+),
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>cmbimagefield</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>
