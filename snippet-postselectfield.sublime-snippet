@@ -5,6 +5,7 @@ array(
   'name' => 'Title',
   'type' => 'post_select',
   'allow_none' => true,
+  'use_ajax' => true,
   'query' => array(
     'var' => 'val'
   )
